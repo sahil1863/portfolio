@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .writer {
+    font-family: Courier, monospace;
+    display: inline-block;
+    }
+    .writer-text {
+        display: inline-block;
+        overflow: hidden;
+        letter-spacing: 2px;
+        animation: typing 5s steps(20) infinite alternate, blink .75s  infinite;
+        white-space: nowrap;
+        font-size: 30px;
+        font-weight: 700;
+        box-sizing: border-box;
+    }
+
+    @keyframes typing {
+        from { 
+            width: 0% 
+        }
+        to { 
+            width: 100% 
+        }
+        
+    }
+
+    @keyframes blink {
+        from, to { 
+            border-color: transparent 
+        }
+       
+    }
+</style>
+</head>
+<body >
+<div class=" bg-gradient-to-tr to-gray-800 from-gray-200 h-max xs:h-screen" id="home">
+<header class="text-gray-900 body-font xs:h-[10vh]  md:p-10">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      
+      <span class="ml-3 text-2xl md:text-3xl font-semibold">Sahil chhabra.</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-xl font-semibold md:gap-10 justify-center">
+      <a href="#home" class="mr-5 hover:text-gray-700">Home</a>
+      <a href="#Skills" class="mr-5 hover:text-gray-700">Skills</a>
+      <!-- <a class="mr-5 hover:text-gray-900">About</a> -->
+      <a href="#contact" class="mr-5 hover:text-gray-700">Contact</a>
+    </nav>
+    
+  </div>
+</header>
+
+<section class="text-gray-600 body-font   xs:mt-5 md:mt-0 p-10 h-max xs:h-[90vh] flex items-center" >
+  <div class="container mx-auto flex px-5 md:py-24 lg:flex-row flex-col items-center">
+    <div class="lg:max-w-lg flex justify-center lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded w-[80%] mx-auto rounded-full" alt="hero" src="photo/sahil.jpeg">
+    </div>
+    <div class="lg:flex-grow xl:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  xl:scale-[115%]">
+    
+      <div class="writer">
+        <div class="writer-text">  <h1 class=" border-r-4  flex flex-wrap w-full text-xl pr-5 xs:text-3xl sm:text-3xl 
+          md:text-3xl xl:text-5xl font-bold text-white">Hi,I am Sahil chhabra. 
+        
+        </h1></div>
+        <div class="  pr-5 md:text-2xl font-bold text-gray-200">front-end web developer</div>
+
+    </div>
+
+    
+      <p class="mb-8 text-base  md:text-xl text-zinc-300 font-base    mt-2 ">An enthusiastic Web developer. I love problem solving too,which sharpens my mind with a wide variety of problems.I am also a 3rd Year Student, pursuing B.Tech From DTU With specialisation in Computer science, My daily job is to Learn And Code New Things and I always try to learn new skills with my study for my personal and Career Growth..</p>
+    
+    </div>
+  </div>
+</section></div>
+<section class="text-gray-600 body-font" id="Skills">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900">Skills</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-xl">I am passoniate towards problem solving in Data structure and Algorithm so I use the trusted platforms like GFG and Leetcode for problem solving. I love to design Websites by using HTML,CSS,JAVASCRIPCT and tailwind.</p>
+    </div>
+    <div class="flex flex-wrap  text-center h-max mx-auto w-full justify-center">
+      <div class="p-4  h-[250px] w-[280px]">
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg h-full">
+         
+          <img class=" mx-auto mb-2 w-[100px] " alt="hero" src="photo/gfglogo.png">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">500+ problem solved</h2>
+          <p class="leading-relaxed">Problem solving</p>
+        </div>
+      </div>
+      <div class="p-4  h-[250px] w-[280px]">
+
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+         
+          <img class=" mx-auto mb-2 h-[67px]" alt="hero" src="photo/leetcodelogo.svg">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">100+ problems solved</h2>
+          <p class="leading-relaxed">problem solving</p>
+        </div>
+      </div>
+      <div class="p-4  h-[250px] w-[280px]">
+
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg h-full">
+        
+          <img class=" mx-auto mb-2 h-[100px]" alt="hero" src="photo/htmlogo.png">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">HTML</h2>
+          <p class="leading-relaxed">Front-end-webdeveloper</p>
+        </div>
+      </div>
+      <div class="p-4  h-[250px] w-[280px]">
+
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+       
+          <img class=" mx-auto mb-2 h-[100px]" alt="hero" src="photo/csslogo.png">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">CSS</h2>
+          <p class="leading-relaxed">Front-end-webdeveloper</p>
+        </div>
+      </div>
+      <div class="p-4  h-[250px] w-[280px]">
+
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg h-full">
+        
+          <img class=" mx-auto mb-2 h-[100px]" alt="hero" src="photo/js.png">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">JAVASCRIPCT</h2>
+          <p class="leading-relaxed">Webdeveloper</p>
+        </div>
+      </div>
+      <div class="p-4  h-[250px] w-[280px]">
+
+        <div class="border-2 border-gray-200 px-4 py-6 rounded-lg h-full">
+        
+          <img class=" mx-auto mb-2 h-[100px]" alt="hero" src="photo/tailwind.png">
+
+          <h2 class="title-font font-medium text-2xl text-gray-900">Tailwind</h2>
+          <p class="leading-relaxed">webdeveloper</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font bg-gray-300">
+  <div class="container px-5 py-24 mx-auto">
+    <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">EXPERICENCE</h1>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Developed a responsive web application using React.js, incorporating thr AWS IoT functionalities to facilitate
+            seamless management of IIoT devices and data.Implemented an internship project focused on AWS IoT, involving the integration of hardware devices in
+            robots with AWS IoT services.</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://tse4.mm.bing.net/th?id=OIP.7_Qf9W4d3ON-rjgDsT7tOgHaHa&pid=Api&P=0&h=180" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">Eythor pvt limited , DTU-IIF</span>
+              <span class="text-gray-500 text-sm">Full stack webdeveloper</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Imparted Computer education (Basics of Computer, S/W, H/W, MS Office and Internet Browsing, etc.) to
+            the Delhi Govt. school students to enhance their educational standard, digital literacy, and learning technological skills.</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://img.collegepravesh.com/2015/10/DTU-Logo.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">USIP , DTU</span>
+              <span class="text-gray-500 text-sm">OEA intern</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font relative" id="contact">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me</h1>
+      <p class="lg:w-3/3 mx-auto leading-relaxed text-lg font-semibold" >Feel free to contact me</p>
+      <p>Sahil chhabra,coidng ehthusiastic especially orinted to Data Structure 
+        <p>Problem solving and designing webiste that works upto your needs and looks smarter than yourselves</p>
+      <p>Please take a moment to fill out the attached contact form. I assure that I will respond surely and </p>
+      <p>will look forward to connect with you soon. Let's collaborate and create something amazing together!</p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <form class="flex flex-wrap -m-2"
+      action="https://formspree.io/f/mrgvqqve"
+      method="POST"
+      >
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">Submit</button>
+        </div>
+        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+          <a class="text-indigo-500 flex justify-center items-center">chhabrasahil20@gmail.com</a>
+          <p class="leading-normal my-5 flex justify-center items-center ">   Delhi Technological University
+            <br> 
+          </p>
+          <span class="flex justify-center items-center mr-5 ">
+            <a href="https://github.com/sahil1863" class="ml-4 text-gray-500">
+                <img width="21" height="21" src="https://s.yimg.com/fz/api/res/1.2/BMbAkWtLKPyUuTo9jK0WNQ--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/1a0d1629-cdce-359c-81fe-b83c39d6c2da/t_500x300" alt="">
+              </a>
+            <a href="https://www.linkedin.com/in/sahil-chhabra-08b789231" class="ml-4 text-gray-500">
+                <img width="20" height="20" src="https://s.yimg.com/fz/api/res/1.2/7wmcqjtgVFiMeMxLOlW3sw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/e9d6381f-6a16-39d9-b6f9-1467838c022c/t_500x300" alt="">
+              </a>
+              <a href="https://auth.geeksforgeeks.org/user/chhabra_sahil/practice" class="ml-4 text-gray-500">
+                <img width="20" height="20" src="https://yt3.ggpht.com/a/AGF-l7_vzP4YJMztc_g-lfWsHDMq6Y4wuEisk-oqMg=s900-c-k-c0xffffffff-no-rj-mo" alt="">
+              </a>
+              <a href="https://leetcode.com/sahil_1963/" class="ml-4 text-gray-500">
+                <img width="19" height="19" src="https://media.glassdoor.com/sqll/1763822/leetcode-squarelogo-1524799041565.png" alt="">
+              </a>
+              <a href="https://www.linkedin.com/in/sahil-chhabra-08b789231" class="ml-4 text-gray-500">
+                <img width="25" height="25" src="photo/icons8-linkedin.svg" alt="">
+              </a>
+             
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="text-gray-600 body-font bg-gray-300">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+     
+      <span class="ml-3 text-xl">Sahil chhabra.</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a  class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
